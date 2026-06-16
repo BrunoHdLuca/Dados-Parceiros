@@ -1,7 +1,9 @@
 # Dados-Parceiros
 
-## Configuração MCP (Cursor)
+## Instalar MCPs no Cursor (comece aqui)
 
-Para conectar o Cursor a Figma, Jira, Confluence, Databricks e outras ferramentas ABI, veja **[docs/MCP-SETUP.md](docs/MCP-SETUP.md)**.
+**Não sabe configurar?** Siga o guia de 3 passos:
 
-Arquivo principal pronto para copiar: [`.cursor/mcp.json`](.cursor/mcp.json)
+👉 **[docs/INSTALAR-EM-3-PASSOS.md](docs/INSTALAR-EM-3-PASSOS.md)** — baixe o projeto e dê duplo clique em **`INSTALAR-MCP.bat`**
+
+Documentação completa: [docs/MCP-SETUP.md](docs/MCP-SETUP.md)
