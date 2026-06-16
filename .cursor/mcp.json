@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "Figma": {
+      "url": "https://mcp.figma.com/mcp",
+      "headers": {}
+    },
+    "sequential-thinking": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "context7": {
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "atlassian": {
+      "url": "https://mcp.atlassian.com/v1/sse"
+    },
+    "lucidchart": {
+      "url": "https://mcp.lucid.app/mcp"
+    },
+    "granola": {
+      "url": "https://mcp.granola.ai/mcp"
+    }
+  }
+}
