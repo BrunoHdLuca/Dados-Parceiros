@@ -1,0 +1,68 @@
+{
+  "mcpServers": {
+    "Figma": {
+      "url": "https://mcp.figma.com/mcp",
+      "headers": {}
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "context7": {
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "atlassian": {
+      "url": "https://mcp.atlassian.com/v1/sse"
+    },
+    "lucidchart": {
+      "url": "https://mcp.lucid.app/mcp"
+    },
+    "granola": {
+      "url": "https://mcp.granola.ai/mcp"
+    },
+    "mcp-atlassian": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "CONFLUENCE_URL",
+        "-e",
+        "CONFLUENCE_USERNAME",
+        "-e",
+        "CONFLUENCE_API_TOKEN",
+        "-e",
+        "JIRA_URL",
+        "-e",
+        "JIRA_USERNAME",
+        "-e",
+        "JIRA_API_TOKEN",
+        "-e",
+        "READ_ONLY_MODE",
+        "ghcr.io/sooperset/mcp-atlassian:latest",
+        "--read-only"
+      ],
+      "env": {
+        "CONFLUENCE_URL": "https://ab-inbev.atlassian.net/wiki",
+        "CONFLUENCE_USERNAME": "SUBSTITUA_SEU_EMAIL_ABI",
+        "CONFLUENCE_API_TOKEN": "SUBSTITUA_SEU_API_TOKEN_ATLASSIAN",
+        "JIRA_URL": "https://ab-inbev.atlassian.net",
+        "JIRA_USERNAME": "SUBSTITUA_SEU_EMAIL_ABI",
+        "JIRA_API_TOKEN": "SUBSTITUA_SEU_API_TOKEN_ATLASSIAN",
+        "READ_ONLY_MODE": "false"
+      }
+    },
+    "databricks": {
+      "command": "C:\\Users\\SUBSTITUA_SEU_USUARIO\\Downloads\\databricks-mcp-server-windows-amd64.exe",
+      "args": [],
+      "env": {
+        "DATABRICKS_HOST": "SUBSTITUA_SUA_URL_DATABRICKS",
+        "PATH": "C:\\Users\\SUBSTITUA_SEU_USUARIO\\AzureCLI\\bin;%PATH%"
+      }
+    }
+  }
+}
